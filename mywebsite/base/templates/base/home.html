@@ -1,0 +1,91 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tharun Reddy</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/profilepic.jpeg' %}" >
+					<hr>
+					<h4>Hi I am Tharun Reddy!</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>My First Job as a Developer</h4>
+					<hr>
+					<p>I could somehow picture myself as a developer, and after doubting a lot I decided to give it a try and started applying for jobs. I got rejected A LOT and struggled BIG TIME with the few interviews I was able to get.</p>
+
+					<p>I did, and I took it step by step. With the help of my leader and teammates I was able to become pretty much proficient in a matter of months. </p>
+
+					<p>From this you’ll see that I’m someone that jumps before I can talk myself out of doing something scary.</p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/instagram.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Backend developer at Appointy India.</p>
+					<p>Designed, built and managed a packages as a sole developer. Optimised the entire flow where the endpoint taking 5mins(even more) to load to milliseconds.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, Golang, Postgres and APIs such as google ReCaptchas and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+					<p>PS: Working on Javascript, Mongo DB and Building Content to Share with others.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>After almost two years of working as a backend developer now I’m ready to learn something new. I'll collaborating and sharing my experience with others on my blog & youtube channel.</p>
+				<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
